@@ -15,7 +15,7 @@ NAMES
 """
 # Project name to be used in urls
 # Use dashes, not underscores!
-PROJECT_SLUG = 'lunchbox-test'
+PROJECT_SLUG = 'lunchbox'
 
 # Project name to be used in file paths
 PROJECT_FILENAME = 'lunchbox'

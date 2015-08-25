@@ -17,10 +17,13 @@ var quotes = [
         "credit": "Kommentator, BT",
         "size": 50
     },
-    /*{
-        "quote": "I've made a huge mistake.",
-        "source": "G.O.B."
+    {
+        "quote": "Jeg ser for meg en diger bunker, der grå frakkekledde mennesker vrimler rundt og produserer sprøyt",
+        "source": "Frode Bjerkestrand",
+        "credit": "Kommentator, BT",
+        "size": 50
     },
+    /*
     {
         "quote": "Yes, I have smoked crack cocaine",
         "source": "Toronto Mayor Rob Ford",

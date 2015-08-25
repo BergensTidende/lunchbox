@@ -12,10 +12,12 @@ var $logoWrapper = null;
 
 var quotes = [
     {
-        "quote": "I'd been drinking.",
-        "source": "Dennis Rodman"
+        "quote": "Til forskjell fra da finanskrisen herjet i 2008, er det denne gangen få steder norsk økonomi kan søke ly",
+        "source": "Sigvald Sveinbjørnsson",
+        "credit": "Kommentator, BT",
+        "size": 50
     },
-    {
+    /*{
         "quote": "I've made a huge mistake.",
         "source": "G.O.B."
     },
@@ -38,7 +40,7 @@ var quotes = [
         "quote": "Whoa, whoa, whoa. There's still plenty of meat on that bone. Now you take this home, throw it in a pot, add some broth, a potato. Baby, you've got a stew going.",
         "source": "Carl Weathers",
         "size": 40
-    }
+    }*/
 ];
 
 
@@ -138,6 +140,7 @@ $(function() {
     }
     $('blockquote p').text(quote.quote);
     $source.html('&mdash;&thinsp;' + quote.source);
+    $showCredit.html(quote.credit);
     processText();
 
     $save.on('click', saveImage);

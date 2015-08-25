@@ -9,6 +9,16 @@
 * [Deploy the desktop app](#deploy-the-desktop-app)
 * [About](#about)
 
+BT-specific notes
+------------
+
+Add the following enviroment variables: 
+
+* `LUNCHBOX_SERVER_USER` - username for the server you deploy to
+* `LUNCHBOX_SERVER` - hostname of server you deploy to
+* `LUNCHBOX_SERVER_PATH` - path to folder on server
+
+
 What is this?
 -------------
 
@@ -49,6 +59,7 @@ What's in here?
 
 Quick Start
 -------------
+
 
 Bootstrap the project by forking this repo and installing the following:
 

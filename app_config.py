@@ -35,9 +35,9 @@ PRODUCTION_S3_BUCKET = 'apps.npr.org'
 STAGING_S3_BUCKET = 'stage-apps.npr.org'
 DEFAULT_MAX_AGE = 20
 
-FILE_SERVER_USER = 'ubuntu'
-FILE_SERVER = 'tools.apps.npr.org'
-FILE_SERVER_PATH = '~/www'
+FILE_SERVER_USER = os.environ.get('LUNCHBOX_SERVER_USER')
+FILE_SERVER = os.environ.get('LUNCHBOX_SERVER')
+FILE_SERVER_PATH = os.environ.get('LUNCHBOX_SERVER_PATH')
 
 # These variables will be set at runtime. See configure_targets() below
 S3_BUCKET = None
